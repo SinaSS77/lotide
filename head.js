@@ -1,4 +1,4 @@
-const assertEqual = function(actual, expected) {
+const assertEqual = function (actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
 };
 
 // const head = (array) => array ? array[0] : "undefined";
-const head = function(array) {
+const head = function (array) {
   if (array) {
     return array[0];
   }
