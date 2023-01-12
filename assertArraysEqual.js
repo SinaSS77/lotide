@@ -13,7 +13,7 @@ const eqArrays = (array1, array2) => {
 
 const assertArraysEqual = (array1 , array2) => {
   (eqArrays(array1,array2)) ? console.log("Pass") : console.log("Fail");
-}
+};
 
 
 assertArraysEqual([3,2,1],[3,3]);
