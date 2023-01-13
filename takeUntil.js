@@ -1,4 +1,4 @@
-const takeUntil = function (array, callback) {
+const takeUntil = function(array, callback) {
   let result = [];
 
   for (let item of array) {
@@ -11,7 +11,7 @@ const takeUntil = function (array, callback) {
     }
   }
 
-  /* 
+  /*
   In the callback function when it defined like x < 0 ; so the function will return a boolean. if it was like (x) => {x < 0}, so after iterating the numbers the function will return the number that will satisfy the cundition. if instead of operators we had a letter like x , then it will return that.
   */
 };
