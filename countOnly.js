@@ -1,4 +1,4 @@
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
@@ -34,8 +34,8 @@ const flatten = (array) => {
   for (let item of array) {
     Array.isArray(item)
       ? item.forEach((element) => {
-          result.push(element);
-        })
+        result.push(element);
+      })
       : result.push(item);
   }
   console.log(result);
@@ -66,7 +66,7 @@ const middle = (array) => {
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
-const countOnly = function (allItems, itemsToCount) {
+const countOnly = function(allItems, itemsToCount) {
   let resultObject = {};
   // first we need to itarate in Object
   for (let item in itemsToCount) {
