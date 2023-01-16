@@ -10,7 +10,7 @@ const countLetters = function (anyString) {
   let arrayString = anyString.split("");
   let resultObject = {};
   for (let letter of anyString) {
-    if (!resultObject.hasOwnProperty(letter)) {
+    if (!resultObject["letter"]) {
       let container = 0;
       arrayString.forEach((element) => {
         if (element === letter) {
@@ -24,3 +24,5 @@ const countLetters = function (anyString) {
 };
 
 countLetters("sinasin");
+
+
