@@ -7,5 +7,6 @@ const head = function (array) {
   }
 };
 
-console.log(head([]));
 module.exports = head;
+
+
