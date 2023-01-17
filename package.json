@@ -1,5 +1,5 @@
 {
-  "name": "ls",
+  "name": "@sina77/lotide",
   "version": "1.0.0",
   "main": "assertArraysEqual.js",
   "directories": {
@@ -12,13 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/SinaSS77/lotide.git"
   },
-  "author": "",
+  "author": "Sina Molaverdikhani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SinaSS77/lotide/issues"
   },
   "homepage": "https://github.com/SinaSS77/lotide#readme",
-  "description": "",
+  "description": "Lotide is a simple package includes some assertion functions similar to Lodash and some functions published by a student",
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^9.2.2"
